@@ -6,6 +6,7 @@ export default function HomePage({ navigation }) {
     <View>
       <Button title="Courses" onPress={() => navigation.navigate("Courses")} />
       <Button title="Counter" onPress={() => navigation.navigate("Counter")} />
+      <Button title="Boxes" onPress={() => navigation.navigate("Boxes")} />
     </View>
   );
 }

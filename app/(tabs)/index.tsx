@@ -2,6 +2,7 @@ import { Button, StyleSheet, View } from "react-native";
 import React from "react";
 import CoursesScreen from "../../src/screens/CoursesScreen";
 import CounterScreen from "../../src/screens/CounterScreen";
+import BoxScreen from "../../src/screens/BoxScreen";
 import Javascript from "../../components/Javascript";
 import ReactNative from "../../components/ReactNative";
 import ReactCourse from "../../components/ReactCourse";
@@ -23,6 +24,7 @@ export default function HomeScreen() {
         <Stack.Screen name="RN" component={ReactNative} />
         <Stack.Screen name="React" component={ReactCourse} />
         <Stack.Screen name="Bootstrap" component={Javascript} />
+        <Stack.Screen name="Boxes" component={BoxScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
