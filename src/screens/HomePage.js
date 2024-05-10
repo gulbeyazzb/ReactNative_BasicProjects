@@ -7,6 +7,10 @@ export default function HomePage({ navigation }) {
       <Button title="Courses" onPress={() => navigation.navigate("Courses")} />
       <Button title="Counter" onPress={() => navigation.navigate("Counter")} />
       <Button title="Boxes" onPress={() => navigation.navigate("Boxes")} />
+      <Button
+        title="CounterWithReducer"
+        onPress={() => navigation.navigate("CounterWithReducer")}
+      />
     </View>
   );
 }
