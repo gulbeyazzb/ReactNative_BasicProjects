@@ -1,6 +1,5 @@
 import { Button, FlatList, StyleSheet, View } from "react-native";
 import React, { useState } from "react";
-import CustomButton from "@/components/CustomButton";
 
 export default function BoxScreen() {
   const [boxes, setBoxes] = useState([]);
