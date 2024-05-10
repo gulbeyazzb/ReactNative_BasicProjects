@@ -5,7 +5,6 @@ import CounterScreen from "../../src/screens/CounterScreen";
 import Javascript from "../../components/Javascript";
 import ReactNative from "../../components/ReactNative";
 import ReactCourse from "../../components/ReactCourse";
-import Tailwind from "../../components/Tailwind";
 import HomePage from "../../src/screens/HomePage";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -24,7 +23,6 @@ export default function HomeScreen() {
         <Stack.Screen name="RN" component={ReactNative} />
         <Stack.Screen name="React" component={ReactCourse} />
         <Stack.Screen name="Bootstrap" component={Javascript} />
-        <Stack.Screen name="Tailwind" component={Tailwind} />
       </Stack.Navigator>
     </NavigationContainer>
   );
