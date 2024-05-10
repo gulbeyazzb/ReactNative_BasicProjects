@@ -6,7 +6,7 @@ import Javascript from "../../components/Javascript";
 import ReactNative from "../../components/ReactNative";
 import ReactCourse from "../../components/ReactCourse";
 import Tailwind from "../../components/Tailwind";
-import App from "../../src/screens/App";
+import HomePage from "../../src/screens/HomePage";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
@@ -16,7 +16,7 @@ export default function HomeScreen() {
   return (
     <NavigationContainer independent={true}>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="App" component={App} />
+        <Stack.Screen name="HomePage" component={HomePage} />
         <Stack.Screen name="Courses" component={CoursesScreen} />
         <Stack.Screen name="Counter" component={CounterScreen} />
         <Stack.Screen name="Js" component={Javascript} />
