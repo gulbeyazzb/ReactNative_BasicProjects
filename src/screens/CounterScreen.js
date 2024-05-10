@@ -1,12 +1,37 @@
-import { StyleSheet, Text, View } from "react-native";
-import React from "react";
+import { Button, StyleSheet, Text, View } from "react-native";
+import React, { useState } from "react";
+import CustomButton from "../../components/CustomButton";
 
 export default function CounterScreen() {
+  const [counter, setCounter] = useState(0);
   return (
-    <View>
-      <Text>CounterScreen</Text>
+    <View style={styles.content}>
+      <CustomButton title="+" onPress={() => setCounter(counter + 1)} />
+      <Text style={styles.counterText}>{counter}</Text>
+
+      <CustomButton title="-" onPress={() => setCounter(counter - 1)} />
     </View>
   );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  content: {
+    justifyContent: "center",
+    flex: 1,
+    alignItems: "center",
+    position: "absolute",
+    top: "40%",
+    left: "55%",
+    transform: [{ translateX: -50 }, { translateY: -50 }],
+  },
+  btn: {
+    color: "red",
+    backgroundColor: "blue",
+    fontSize: 20,
+    padding: 10,
+  },
+  counterText: {
+    color: "red",
+    fontSize: 80,
+  },
+});
