@@ -1,6 +1,6 @@
 import { Button, FlatList, ScrollView, StyleSheet, View } from "react-native";
 import React from "react";
-import Techs from "../../components/Techs";
+import Techs from "../../components/jsFiles/Techs";
 
 export default function CoursesScreen({ navigation }) {
   const courses = [

@@ -1,6 +1,6 @@
 import { Button, StyleSheet, Text, View } from "react-native";
 import React, { useState } from "react";
-import CustomButton from "../../components/CustomButton";
+import CustomButton from "../../components/jsFiles/CustomButton";
 
 export default function CounterScreen() {
   const [counter, setCounter] = useState(0);
