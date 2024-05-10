@@ -24,12 +24,7 @@ const styles = StyleSheet.create({
     left: "55%",
     transform: [{ translateX: -50 }, { translateY: -50 }],
   },
-  btn: {
-    color: "red",
-    backgroundColor: "blue",
-    fontSize: 20,
-    padding: 10,
-  },
+
   counterText: {
     color: "red",
     fontSize: 80,
