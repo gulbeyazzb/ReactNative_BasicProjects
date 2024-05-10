@@ -4,6 +4,7 @@ import CoursesScreen from "../../src/screens/CoursesScreen";
 import CounterScreen from "../../src/screens/CounterScreen";
 import CounterScreenWithReducer from "../../src/screens/CounterScreenWithReducer";
 import BoxScreen from "../../src/screens/BoxScreen";
+import BoxScreenWithReducer from "../../src/screens/BoxScreenWithReducer";
 import Javascript from "../../components/jsFiles/Javascript";
 import ReactNative from "../../components/jsFiles/ReactNative";
 import ReactCourse from "../../components/jsFiles/ReactCourse";
@@ -26,6 +27,7 @@ export default function HomeScreen() {
         <Stack.Screen name="React" component={ReactCourse} />
         <Stack.Screen name="Bootstrap" component={Javascript} />
         <Stack.Screen name="Boxes" component={BoxScreen} />
+        <Stack.Screen name="BoxesReducer" component={BoxScreenWithReducer} />
         <Stack.Screen
           name="CounterWithReducer"
           component={CounterScreenWithReducer}

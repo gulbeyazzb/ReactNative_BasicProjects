@@ -8,6 +8,10 @@ export default function HomePage({ navigation }) {
       <Button title="Counter" onPress={() => navigation.navigate("Counter")} />
       <Button title="Boxes" onPress={() => navigation.navigate("Boxes")} />
       <Button
+        title="BoxesReducer"
+        onPress={() => navigation.navigate("BoxesReducer")}
+      />
+      <Button
         title="CounterWithReducer"
         onPress={() => navigation.navigate("CounterWithReducer")}
       />
